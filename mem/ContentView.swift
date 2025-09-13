@@ -113,7 +113,7 @@ struct ContentView: View {
     
     private let listsKey = "SavedReminderLists"
     private let selectedListKey = "SelectedListID"
-    private let appGroupID = "group.com.yourname.mem.shared" // Replace with your actual App Group ID
+    private let appGroupID = "group.com x.mem.shared" // Replace with your actual App Group ID
     
     private var sharedUserDefaults: UserDefaults {
         return UserDefaults(suiteName: appGroupID) ?? UserDefaults.standard

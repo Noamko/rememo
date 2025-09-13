@@ -111,7 +111,7 @@ struct Provider: TimelineProvider {
         // Load data from shared UserDefaults (shared with main app)
         let listsKey = "SavedReminderLists"
         let selectedListKey = "SelectedListID"
-        let appGroupID = "group.com.yourname.mem.shared" // Replace with your actual App Group ID
+        let appGroupID = "group.com.mem.shared" // Replace with your actual App Group ID
         
         // Use shared UserDefaults container
         let sharedUserDefaults = UserDefaults(suiteName: appGroupID) ?? UserDefaults.standard
